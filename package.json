@@ -1,0 +1,35 @@
+{
+  "name": "fly-cd",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "fcd": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "bun ./src/index.ts"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "keywords": [
+    "CLI"
+  ],
+  "author": "flyyt4",
+  "license": "MIT",
+  "repository": "flyyt4/fcd",
+  "packageManager": "pnpm@10.9.0",
+  "devDependencies": {
+    "@types/node": "^22.15.2",
+    "@types/react": "^18.3.1",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "clipboardy": "^4.0.0",
+    "ink": "5.2.0",
+    "react": "^18.3.1"
+  }
+}
